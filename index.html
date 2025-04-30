@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>朱家尖宁波三日游攻略</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap">
+    <style>
+        :root {
+            --apple-background: #f5f5f7;
+            --apple-card: #ffffff;
+            --apple-text: #1d1d1f;
+            --apple-text-secondary: #86868b;
+            --apple-blue: #0066cc;
+            --apple-green: #5ac268;
+            --apple-border: #d2d2d7;
+            --apple-shadow: rgba(0, 0, 0, 0.05);
+            --content-width: 94%;
+            --max-content-width: 800px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+            background-color: var(--apple-background);
+            color: var(--apple-text);
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            padding-bottom: 50px;
+        }
+
+        .container {
+            width: var(--content-width);
+            max-width: var(--max-content-width);
+            margin: 0 auto;
+            padding: 24px 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0 30px;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            letter-spacing: -0.5px;
+            color: var(--apple-text);
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: 600;
+            margin: 30px 0 20px;
+            letter-spacing: -0.3px;
+            color: var(--apple-text);
+        }
+
+        h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 24px 0 16px;
+            color: var(--apple-text);
+        }
+
+        h4 {
+            font-size: 17px;
+            font-weight: 500;
+            margin: 20px 0 12px;
+            color: var(--apple-text);
+        }
+
+        p {
+            margin: 12px 0;
+            font-size: 16px;
+            color: var(--apple-text);
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin: 16px 0;
+        }
+
+        li {
+            margin-bottom: 12px;
+            font-size: 16px;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: var(--apple-blue);
+        }
+
+        li li {
+            margin-bottom: 8px;
+            padding-left: 16px;
+            font-size: 15px;
+        }
+
+        li li::before {
+            content: "◦";
+            color: var(--apple-text-secondary);
+        }
+
+        li li li {
+            margin-bottom: 6px;
+            padding-left: 14px;
+            font-size: 14px;
+        }
+
+        li li li::before {
+            content: "-";
+        }
+
+        .card {
+            background-color: var(--apple-card);
+            border-radius: 16px;
+            box-shadow: 0 4px 12px var(--apple-shadow);
+            padding: 24px;
+            margin-bottom: 20px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+        }
+
+        .emoji-icon {
+            font-size: 22px;
+            margin-right: 6px;
+            vertical-align: middle;
+        }
+
+        .section-title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .section-title h2, .section-title h3 {
+            margin: 0;
+        }
+
+        .checkbox-container {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+
+        .custom-checkbox {
+            -webkit-appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 2px solid var(--apple-border);
+            outline: none;
+            margin-right: 10px;
+            flex-shrink: 0;
+            margin-top: 2px;
+            position: relative;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .custom-checkbox:checked {
+            background-color: var(--apple-blue);
+            border-color: var(--apple-blue);
+        }
+
+        .custom-checkbox:checked::after {
+            content: "";
+            position: absolute;
+            top: 3px;
+            left: 6px;
+            width: 5px;
+            height: 10px;
+            border: solid white;
+            border-width: 0 2px 2px 0;
+            transform: rotate(45deg);
+        }
+
+        .checkbox-label {
+            flex: 1;
+            margin-top: 0;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 3px 10px;
+            background-color: rgba(0, 102, 204, 0.1);
+            color: var(--apple-blue);
+            border-radius: 14px;
+            font-size: 13px;
+            margin-right: 6px;
+            margin-bottom: 6px;
+        }
+
+        .price-tag {
+            color: var(--apple-text-secondary);
+            font-weight: 500;
+            font-size: 15px;
+        }
+
+        .day-card {
+            margin-bottom: 30px;
+        }
+
+        .day-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 16px;
+        }
+
+        .day-title {
+            font-size: 22px;
+            font-weight: 600;
+            color: var(--apple-text);
+        }
+
+        .day-date {
+            font-size: 15px;
+            color: var(--apple-text-secondary);
+        }
+
+        .activity-card {
+            margin-bottom: 12px;
+            border-bottom: 1px solid var(--apple-border);
+            padding-bottom: 12px;
+        }
+
+        .activity-card:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .activity-time {
+            font-size: 14px;
+            color: var(--apple-blue);
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+
+        .progress-container {
+            margin: 30px 0;
+            padding: 0 16px;
+        }
+
+        .progress-bar {
+            height: 6px;
+            background-color: rgba(0, 102, 204, 0.2);
+            border-radius: 3px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background-color: var(--apple-blue);
+            border-radius: 3px;
+            width: 0%;
+            transition: width 0.8s ease;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 30px 0 10px;
+            color: var(--apple-text-secondary);
+            font-size: 14px;
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                width: 92%;
+            }
+            
+            h1 {
+                font-size: 28px;
+            }
+            
+            h2 {
+                font-size: 22px;
+            }
+            
+            h3 {
+                font-size: 18px;
+            }
+            
+            .card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏝️ 舟山朱家尖+宁波三日游攻略</h1>
+        </header>
+
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="section-title">
+                <h2>📅 行程概览</h2>
+            </div>
+            <ul>
+                <li class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="overview-day1">
+                    <label for="overview-day1" class="checkbox-label"><b>Day 1</b>: 杭州→朱家尖→南沙沙滩→环岛公路→筲箕湾渔村→保利自在海→住宿</label>
+                </li>
+                <li class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="overview-day2">
+                    <label for="overview-day2" class="checkbox-label"><b>Day 2</b>: 东沙看日出→休息→小乌石塘→漳州湾渔村→休闲时光→朱家尖→宁波→住宿</label>
+                </li>
+                <li class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="overview-day3">
+                    <label for="overview-day3" class="checkbox-label"><b>Day 3</b>: 宁波一日游→晚上返回杭州</label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <div class="section-title">
+                <h2>💰 预算控制</h2>
+            </div>
+            <ul>
+                <li>人均预算：<span class="price-tag">1500元以内</span></li>
+                <li>交通费用：<span class="price-tag">约500元</span></li>
+                <li>住宿费用：<span class="price-tag">约260元</span></li>
+                <li>餐饮费用：<span class="price-tag">约350元</span></li>
+                <li>门票及娱乐：<span class="price-tag">约300元</span></li>
+                <li>其他开支：<span class="price-tag">约90元</span></li>
+            </ul>
+        </div>
+
+        <h2>🗓️ 详细行程安排</h2>
+
+        <div class="card day-card">
+            <div class="day-header">
+                <div class="day-title">🌊 Day 1</div>
+                <div class="day-date">5月1日</div>
+            </div>
+            <h3>杭州→朱家尖</h3>
+
+            <div class="activity-card">
+                <h4>🚌 杭州→朱家尖</h4>
+                <div class="activity-time">06:20-10:20</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-1-1">
+                    <label for="activity-1-1" class="checkbox-label">杭州东站西广场→朱家尖蜈蚣峙码头 (车程约4小时)</label>
+                </div>
+                <ul>
+                    <li><span class="price-tag">💰 车票费用：约120元/人</span></li>
+                    <li>📝 提前购票，保存好车票信息</li>
+                    <li>🧳 注意携带必要物品：泳衣、防晒霜、帽子、墨镜、换洗衣物</li>
+                </ul>
+            </div>
+
+            <div class="activity-card">
+                <h4>🏨 入住酒店</h4>
+                <div class="activity-time">10:30-11:30</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-1-2">
+                    <label for="activity-1-2" class="checkbox-label">办理入住手续 - 天恩客栈</label>
+                </div>
+                <ul>
+                    <li><span class="price-tag">💰 住宿费用：522元/两间（人均130元）</span></li>
+                    <li>📝 地址：朱家尖岛东沙路XX号</li>
+                    <li>📱 电话：0580-XXXXXXXX</li>
+                    <li>🔑 入住时间：12:00后，可提前寄存行李</li>
+                </ul>
+            </div>
+
+            <!-- 继续Day 1的其他活动卡片 -->
+            <div class="activity-card">
+                <h4>🍽️ 午餐时间</h4>
+                <div class="activity-time">11:30-12:30</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-1-3">
+                    <label for="activity-1-3" class="checkbox-label">海鲜午餐</label>
+                </div>
+                <ul>
+                    <li><span class="price-tag">💰 人均约60-80元</span></li>
+                    <li>🦞 推荐餐厅：朱家尖海鲜大排档</li>
+                    <li>🍲 推荐菜品：
+                        <ul>
+                            <li class="checkbox-container">
+                                <input type="checkbox" class="custom-checkbox" id="lunch-1-1">
+                                <label for="lunch-1-1" class="checkbox-label">清蒸大黄鱼</label>
+                            </li>
+                            <li class="checkbox-container">
+                                <input type="checkbox" class="custom-checkbox" id="lunch-1-2">
+                                <label for="lunch-1-2" class="checkbox-label">姜葱炒螃蟹</label>
+                            </li>
+                            <li class="checkbox-container">
+                                <input type="checkbox" class="custom-checkbox" id="lunch-1-3">
+                                <label for="lunch-1-3" class="checkbox-label">蒜蓉烤生蚝</label>
+                            </li>
+                            <li class="checkbox-container">
+                                <input type="checkbox" class="custom-checkbox" id="lunch-1-4">
+                                <label for="lunch-1-4" class="checkbox-label">海鲜面/米饭</label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>📝 提示：点菜前先问价，避免宰客</li>
+                </ul>
+            </div>
+
+            <div class="activity-card">
+                <h4>🏖️ 南沙沙滩</h4>
+                <div class="activity-time">13:00-15:30</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-1-4">
+                    <label for="activity-1-4" class="checkbox-label">南沙沙滩游玩</label>
+                </div>
+                <ul>
+                    <li><span class="price-tag">💰 门票：约80元/人</span></li>
+                    <li>🏊‍♀️ 活动：游泳、沙滩排球、日光浴</li>
+                    <li>⏰ 游玩时间：约2.5小时</li>
+                    <li>📝 注意事项：
+                        <ul>
+                            <li>注意防晒，涂抹防晒霜</li>
+                            <li>贵重物品不要放在沙滩上无人看管</li>
+                            <li>注意海滩安全，不要游到深水区</li>
+                            <li>更衣室收费5-10元</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 添加更多Day 1活动 -->
+            <div class="activity-card">
+                <h4>🛵 环岛公路骑行</h4>
+                <div class="activity-time">15:30-17:30</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-1-5">
+                    <label for="activity-1-5" class="checkbox-label">环岛公路骑行观景</label>
+                </div>
+                <ul>
+                    <li><span class="price-tag">💰 电动车租赁：80元/辆/天（建议2人共用一辆）</span></li>
+                    <li>🛣️ 推荐路线：南沙→东沙→西沙沿海公路</li>
+                    <li>📝 注意事项：
+                        <ul>
+                            <li>骑行前检查车辆状况</li>
+                            <li>注意交通安全，遵守交通规则</li>
+                            <li>带上身份证办理租车手续</li>
+                            <li>保存好租车公司电话，以防车辆出现问题</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 添加筲箕湾渔村 -->
+            <div class="activity-card">
+                <h4>🌊 筲箕湾渔村</h4>
+                <div class="activity-time">17:30-19:00</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-1-6">
+                    <label for="activity-1-6" class="checkbox-label">筲箕湾渔村体验赶海</label>
+                </div>
+                <ul>
+                    <li><span class="price-tag">💰 免费（可能有赶海工具租赁费用10-20元）</span></li>
+                    <li>🦀 活动：赶海、捡贝壳、拍照</li>
+                    <li>📝 注意事项：
+                        <ul>
+                            <li>注意潮汐时间，最好在退潮时去</li>
+                            <li>穿防滑鞋，以防受伤</li>
+                            <li>带上手电筒（若天黑）</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 添加保利自在海 -->
+            <div class="activity-card">
+                <h4>🌆 保利自在海</h4>
+                <div class="activity-time">19:00-21:00</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-1-7">
+                    <label for="activity-1-7" class="checkbox-label">保利自在海夜宵、看海</label>
+                </div>
+                <ul>
+                    <li><span class="price-tag">💰 夜宵人均约50元</span></li>
+                    <li>🍹 推荐：海鲜烧烤、啤酒</li>
+                    <li>🌅 活动：吹海风、拍照、欣赏夜景</li>
+                    <li>📝 提示：可以带一些零食饮料，在海边小憩</li>
+                </ul>
+            </div>
+
+            <!-- 添加回酒店休息 -->
+            <div class="activity-card">
+                <h4>🏨 回酒店休息</h4>
+                <div class="activity-time">21:00</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-1-8">
+                    <label for="activity-1-8" class="checkbox-label">返回天恩客栈休息</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day 2 卡片 完善内容 -->
+        <div class="card day-card">
+            <div class="day-header">
+                <div class="day-title">🌅 Day 2</div>
+                <div class="day-date">5月2日</div>
+            </div>
+            <h3>东沙日出→宁波</h3>
+
+            <div class="activity-card">
+                <h4>🌄 东沙看日出</h4>
+                <div class="activity-time">04:00-07:00</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-2-1">
+                    <label for="activity-2-1" class="checkbox-label">起床准备并前往东沙看日出</label>
+                </div>
+                <ul>
+                    <li><span class="price-tag">💰 门票：约50元/人</span></li>
+                    <li>📝 注意事项：
+                        <ul>
+                            <li>穿暖和一点，早晨海边较冷</li>
+                            <li>日出时间约05:00左右，要提前30分钟到达</li>
+                            <li>在靠右边区域观看效果最佳</li>
+                            <li>带上相机、手机充电宝</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 添加更多Day 2活动 -->
+            <div class="activity-card">
+                <h4>🏨 返回酒店休息</h4>
+                <div class="activity-time">07:00-09:00</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-2-2">
+                    <label for="activity-2-2" class="checkbox-label">返回酒店休息</label>
+                </div>
+                <ul>
+                    <li>🍳 附近早餐推荐：渔家早餐店
+                        <ul>
+                            <li><span class="price-tag">💰 人均约20元</span></li>
+                            <li>🍲 推荐：海鲜粥、咸鸭蛋、油条</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 添加退房 -->
+            <div class="activity-card">
+                <h4>🧳 退房</h4>
+                <div class="activity-time">09:30-10:00</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-2-3">
+                    <label for="activity-2-3" class="checkbox-label">办理退房手续</label>
+                </div>
+            </div>
+
+            <!-- 添加小乌石塘 -->
+            <div class="activity-card">
+                <h4>🏞️ 小乌石塘</h4>
+                <div class="activity-time">10:00-11:30</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-2-4">
+                    <label for="activity-2-4" class="checkbox-label">游览小乌石塘</label>
+                </div>
+                <ul>
+                    <li><span class="price-tag">💰 免费</span></li>
+                    <li>🏔️ 活动：观赏黑色鹅卵石、拍照</li>
+                    <li>📝 注意事项：
+                        <ul>
+                            <li>岩石可能湿滑，注意安全</li>
+                            <li>不要带走鹅卵石，保护自然环境</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 添加漳州湾渔村 -->
+            <div class="activity-card">
+                <h4>🌊 漳州湾渔村</h4>
+                <div class="activity-time">11:30-13:00</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-2-5">
+                    <label for="activity-2-5" class="checkbox-label">漳州湾渔村游览</label>
+                </div>
+                <ul>
+                    <li><span class="price-tag">💰 免费</span></li>
+                    <li>🏘️ 活动：体验渔村生活、拍照、购买海产品</li>
+                    <li>📝 提示：可以在此购买一些干海产品作为伴手礼</li>
+                </ul>
+            </div>
+
+            <!-- 添加午餐 -->
+            <div class="activity-card">
+                <h4>🍽️ 午餐</h4>
+                <div class="activity-time">13:00-14:00</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-2-6">
+                    <label for="activity-2-6" class="checkbox-label">渔村海鲜午餐</label>
+                </div>
+                <ul>
+                    <li><span class="price-tag">💰 人均约70元</span></li>
+                    <li>🦞 推荐：清蒸梭子蟹、炒海瓜子、海带汤</li>
+                </ul>
+            </div>
+
+            <!-- 添加休闲时光 -->
+            <div class="activity-card">
+                <h4>🏝️ 休闲时光</h4>
+                <div class="activity-time">14:00-17:00</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-2-7">
+                    <label for="activity-2-7" class="checkbox-label">海边草坡休息</label>
+                </div>
+                <ul>
+                    <li>🌿 活动：看海、晒太阳、小憩</li>
+                    <li>📝 提示：带一块野餐垫，更舒适</li>
+                </ul>
+            </div>
+
+            <!-- 添加前往宁波 -->
+            <div class="activity-card">
+                <h4>🚌 前往宁波</h4>
+                <div class="activity-time">17:30-20:20</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-2-8">
+                    <label for="activity-2-8" class="checkbox-label">返回蜈蚣峙码头准备出发</label>
+                </div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-2-9">
+                    <label for="activity-2-9" class="checkbox-label">朱家尖→宁波</label>
+                </div>
+                <ul>
+                    <li><span class="price-tag">💰 车票费用：约100元/人</span></li>
+                    <li>📝 提前购票，注意发车时间</li>
+                </ul>
+            </div>
+
+            <!-- 添加宁波入住酒店 -->
+            <div class="activity-card">
+                <h4>🏨 宁波入住酒店</h4>
+                <div class="activity-time">20:30-21:00</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-2-10">
+                    <label for="activity-2-10" class="checkbox-label">宁波站附近办理入住</label>
+                </div>
+                <ul>
+                    <li><span class="price-tag">💰 住宿费用：约350元/间（两间）</span></li>
+                    <li>🏨 推荐酒店：
+                        <ul>
+                            <li>宁波火车站亚朵酒店</li>
+                            <li>如家酒店宁波站店</li>
+                        </ul>
+                    </li>
+                    <li>📝 提前在线预订可能有优惠</li>
+                </ul>
+            </div>
+
+            <!-- 添加宁波晚餐 -->
+            <div class="activity-card">
+                <h4>🍽️ 宁波晚餐</h4>
+                <div class="activity-time">21:00-22:00</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-2-11">
+                    <label for="activity-2-11" class="checkbox-label">品尝宁波特色美食</label>
+                </div>
+                <ul>
+                    <li><span class="price-tag">💰 人均约60元</span></li>
+                    <li>🍲 推荐餐厅：老外滩的特色餐厅</li>
+                    <li>🥘 推荐菜品：宁波汤圆、蟹黄汤包、干炸小黄鱼</li>
+                </ul>
+            </div>
+
+            <!-- 添加返回酒店休息 -->
+            <div class="activity-card">
+                <h4>🏨 返回酒店休息</h4>
+                <div class="activity-time">22:00</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-2-12">
+                    <label for="activity-2-12" class="checkbox-label">返回酒店休息</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day 3 卡片 完善内容 -->
+        <div class="card day-card">
+            <div class="day-header">
+                <div class="day-title">🏙️ Day 3</div>
+                <div class="day-date">5月3日</div>
+            </div>
+            <h3>宁波一日游→返回杭州</h3>
+
+            <div class="activity-card">
+                <h4>🍳 酒店早餐</h4>
+                <div class="activity-time">08:00-09:00</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-3-1">
+                    <label for="activity-3-1" class="checkbox-label">早餐</label>
+                </div>
+                <ul>
+                    <li><span class="price-tag">💰 可能包含在房费中</span></li>
+                </ul>
+            </div>
+
+            <!-- 添加办理退房 -->
+            <div class="activity-card">
+                <h4>🧳 办理退房</h4>
+                <div class="activity-time">09:00-09:30</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-3-2">
+                    <label for="activity-3-2" class="checkbox-label">退房，行李可暂存酒店</label>
+                </div>
+            </div>
+
+            <!-- 添加天一阁-月湖景区 -->
+            <div class="activity-card">
+                <h4>🏙️ 宁波一日游路线</h4>
+                <div class="activity-time">09:30-11:30</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-3-3">
+                    <label for="activity-3-3" class="checkbox-label">天一阁-月湖景区</label>
+                </div>
+                <ul>
+                    <li><span class="price-tag">💰 门票：约80元/人</span></li>
+                    <li>📚 中国最古老的私家藏书楼</li>
+                    <li>⏰ 游览时间：约2小时</li>
+                </ul>
+            </div>
+
+            <!-- 添加午餐 -->
+            <div class="activity-card">
+                <h4>🍽️ 午餐</h4>
+                <div class="activity-time">11:30-13:00</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-3-4">
+                    <label for="activity-3-4" class="checkbox-label">宁波特色小吃</label>
+                </div>
+                <ul>
+                    <li><span class="price-tag">💰 人均约50元</span></li>
+                    <li>🥟 推荐：
+                        <ul>
+                            <li class="checkbox-container">
+                                <input type="checkbox" class="custom-checkbox" id="lunch-3-1">
+                                <label for="lunch-3-1" class="checkbox-label">慈城汤圆</label>
+                            </li>
+                            <li class="checkbox-container">
+                                <input type="checkbox" class="custom-checkbox" id="lunch-3-2">
+                                <label for="lunch-3-2" class="checkbox-label">奉化臭豆腐</label>
+                            </li>
+                            <li class="checkbox-container">
+                                <input type="checkbox" class="custom-checkbox" id="lunch-3-3">
+                                <label for="lunch-3-3" class="checkbox-label">宁波猪油年糕</label>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 添加老外滩 -->
+            <div class="activity-card">
+                <h4>🏢 老外滩</h4>
+                <div class="activity-time">13:00-15:00</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-3-5">
+                    <label for="activity-3-5" class="checkbox-label">老外滩观光</label>
+                </div>
+                <ul>
+                    <li><span class="price-tag">💰 免费</span></li>
+                    <li>🏢 中西合璧的建筑群</li>
+                    <li>🛍️ 购物、拍照、休闲</li>
+                    <li>⏰ 游览时间：约2小时</li>
+                </ul>
+            </div>
+
+            <!-- 添加鼓楼商业区 -->
+            <div class="activity-card">
+                <h4>🛍️ 鼓楼商业区</h4>
+                <div class="activity-time">15:00-17:00</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-3-6">
+                    <label for="activity-3-6" class="checkbox-label">鼓楼商业区购物</label>
+                </div>
+                <ul>
+                    <li><span class="price-tag">💰 交通：公交车约2元/人</span></li>
+                    <li>🛍️ 购物、品尝小吃</li>
+                    <li>📝 可购买伴手礼：杨枝甘露糕、鄞州糕、藕粉等</li>
+                </ul>
+            </div>
+
+            <!-- 添加晚餐 -->
+            <div class="activity-card">
+                <h4>🍽️ 晚餐</h4>
+                <div class="activity-time">17:00-18:30</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-3-7">
+                    <label for="activity-3-7" class="checkbox-label">品尝宁波特色晚餐</label>
+                </div>
+                <ul>
+                    <li><span class="price-tag">💰 人均约70元</span></li>
+                    <li>🍲 推荐餐厅：知味观或者甬府</li>
+                    <li>🥘 推荐菜品：宁波汤圆、蟹黄汤包、干炸小黄鱼</li>
+                </ul>
+            </div>
+
+            <!-- 添加前往宁波站 -->
+            <div class="activity-card">
+                <h4>🚉 前往宁波站</h4>
+                <div class="activity-time">18:30-20:00</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-3-8">
+                    <label for="activity-3-8" class="checkbox-label">前往宁波站</label>
+                </div>
+                <ul>
+                    <li><span class="price-tag">💰 打车约25元</span></li>
+                    <li>📝 提前1小时到站，留足安检时间</li>
+                </ul>
+            </div>
+
+            <!-- 添加高铁返回杭州 -->
+            <div class="activity-card">
+                <h4>🚄 高铁返回杭州</h4>
+                <div class="activity-time">20:37-21:44</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="activity-3-9">
+                    <label for="activity-3-9" class="checkbox-label">G7668次高铁返回杭州</label>
+                </div>
+                <ul>
+                    <li><span class="price-tag">💰 高铁票：约120元/人</span></li>
+                    <li>📝 提前购票，核对车次和时间</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 推荐拍照地点卡片 -->
+        <div class="card">
+            <div class="section-title">
+                <h2>📸 推荐拍照地点</h2>
+            </div>
+            <ul>
+                <li class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="photo-1">
+                    <label for="photo-1" class="checkbox-label">南沙沙滩日落</label>
+                </li>
+                <li class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="photo-2">
+                    <label for="photo-2" class="checkbox-label">东沙日出</label>
+                </li>
+                <li class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="photo-3">
+                    <label for="photo-3" class="checkbox-label">环岛公路海景</label>
+                </li>
+                <li class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="photo-4">
+                    <label for="photo-4" class="checkbox-label">小乌石塘黑色鹅卵石</label>
+                </li>
+                <li class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="photo-5">
+                    <label for="photo-5" class="checkbox-label">漳州湾渔村</label>
+                </li>
+                <li class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="photo-6">
+                    <label for="photo-6" class="checkbox-label">宁波天一阁</label>
+                </li>
+                <li class="checkbox-container">
+                    <input type="checkbox" class="custom-checkbox" id="photo-7">
+                    <label for="photo-7" class="checkbox-label">宁波老外滩</label>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 紧急联系方式卡片 -->
+        <div class="card">
+            <div class="section-title">
+                <h2>☎️ 紧急联系方式</h2>
+            </div>
+            <ul>
+                <li>个人联系人：常杰 18774903239</li>
+                <li>旅游紧急救援：0580-XXXXXXXX</li>
+                <li>朱家尖旅游咨询：0580-XXXXXXXX</li>
+                <li>宁波旅游咨询：0574-XXXXXXXX</li>
+                <li>医疗急救：120</li>
+            </ul>
+        </div>
+
+        <!-- 实用提示卡片 -->
+        <div class="card">
+            <div class="section-title">
+                <h2>💡 实用提示</h2>
+            </div>
+            <ul>
+                <li>舟山普通话混合吴语，基本可以沟通</li>
+                <li>提前查看天气预报，准备雨具</li>
+                <li>海鲜价格会随季节波动，事先询价</li>
+                <li>带上防蚊虫喷雾，特别是傍晚在海边时</li>
+                <li>充分利用手机地图，导航路线</li>
+                <li>预留一些自由活动时间，不要行程太赶</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>祝旅途愉快！🌈🏝️🌊🏖️🚗🍽️🏨🌅</p>
+        </div>
+    </div>
+
+    <script>
+        // 跟踪复选框状态并更新进度条
+        document.addEventListener('DOMContentLoaded', function() {
+            const checkboxes = document.querySelectorAll('.custom-checkbox');
+            const progressFill = document.getElementById('progress-fill');
+            
+            function updateProgress() {
+                const total = checkboxes.length;
+                let checked = 0;
+                
+                checkboxes.forEach(function(checkbox) {
+                    if (checkbox.checked) {
+                        checked++;
+                    }
+                });
+                
+                const percentage = (checked / total) * 100;
+                progressFill.style.width = percentage + '%';
+                
+                // 保存状态到本地存储
+                checkboxes.forEach(function(checkbox) {
+                    localStorage.setItem(checkbox.id, checkbox.checked ? 'checked' : 'unchecked');
+                });
+            }
+            
+            // 从本地存储中恢复状态
+            checkboxes.forEach(function(checkbox) {
+                const savedState = localStorage.getItem(checkbox.id);
+                if (savedState === 'checked') {
+                    checkbox.checked = true;
+                }
+                
+                checkbox.addEventListener('change', updateProgress);
+            });
+            
+            // 初始化进度条
+            updateProgress();
+        });
+    </script>
+</body>
+</html> 
